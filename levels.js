@@ -43,7 +43,7 @@ var levels = [
     help : 'Selects an element with that id. You can also combine the ID selector with the type selector.',
     examples : [
       '<strong>#cool</strong> will select any element with <strong>id="cool"</strong>',
-      '<strong>ul#long</strong> will select <strong>&lt;ul id="long"&gt;</strong>'
+      '<strong>ul#long</strong> will select <strong>&lt;ul id="long"&gt;</strong>, but <strong>#long</strong> is shorter and also selects the same element. You don\'t have to qualify your ids with other selectors.'
     ],
     board: "{)()[]"
   },
@@ -117,7 +117,8 @@ var levels = [
     syntax : "*",
     help : 'You can select all elements with the universal selector! ',
     examples : [
-      '<strong>p *</strong> will select every element inside all <strong>&lt;p&gt;</strong> elements.'
+      '<strong>p *</strong> will select every element inside all <strong>&lt;p&gt;</strong> elements.',
+      'Use sparingly! This selector can hurt performance.' 
     ],
     board: "A(o)[][O]{)"
   },
