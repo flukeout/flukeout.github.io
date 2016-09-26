@@ -13,6 +13,14 @@
 
 var level;  // Holds current level info
 var currentLevel = parseInt(localStorage.currentLevel,10) || 0; // Keeps track of the current level Number (0 is level 1)
+
+//Make sure we don't try to load a level we can't
+if(currentLevel < 0) {
+  currentLevel = 0;
+} else if (currentLevel >= levels.length) {
+  currentLevel = levels.length - 1;
+}
+
 var levelTimeout = 1000; // Delay between levels after completing
 var finished = false;    // Keeps track if the game is showing the Your Rock! screen (so that tooltips can be disabled)
 
