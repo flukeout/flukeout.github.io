@@ -306,8 +306,8 @@ var levels = [
     help : "You can select the first child element. A child element is any element that is directly nested in another element. You can combine this pseudo-selector with other selectors.",
     examples : [
       '<strong>:first-child</strong> selects all first child elements.',
-      '<strong>p:first-child</strong> selects all first child <tag>p</tag> elements.',
-      '<strong>div p:first-child</strong> selects all first child <tag>p</tag> elements that are in a <tag>div</tag>.'
+      '<strong>p :first-child</strong> selects all first child <tag>p</tag> elements.',
+      '<strong>div p :first-child</strong> selects all first child <tag>p</tag> elements that are in a <tag>div</tag>.'
     ],
     boardMarkup :`
     <bento/>
@@ -328,8 +328,8 @@ var levels = [
     syntax: ":only-child",
     help : "You can select any element that is the only element inside of another one.",
     examples : [
-      '<strong>span:only-child</strong> selects the <tag>span</tag> elements that are the only child of some other element.',
-      '<strong>ul li:only-child</strong> selects the only <tag>li</tag> element that are in a <tag>ul</tag>.'
+      '<strong>span :only-child</strong> selects the <tag>span</tag> elements that are the only child of some other element.',
+      '<strong>ul li :only-child</strong> selects the only <tag>li</tag> element that are in a <tag>ul</tag>.'
     ],
     boardMarkup : `
     <plate>
