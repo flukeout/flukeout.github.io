@@ -61,7 +61,8 @@ header {
 }
 
 .share-menu .share-twitter {
-  background-image: url(../images/icon-twitter.svg);
+  background-image: url(../images/X-New-Logo.svg);
+  background-color: azure;
 }
 
 .share-menu .share-facebook {
