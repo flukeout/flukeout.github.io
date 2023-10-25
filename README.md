@@ -6,6 +6,9 @@ To play, visit [flukeout.github.io](http://flukeout.github.io/) or [cssdiner.com
 
 ### Change Log
 
+**Oct 25, 2023**
+* Added the new twitter logo
+
 **Aug 25,2016**
 * Added Twitter, Facebook and Email share actions
   * Tracking clicks with GA Events
